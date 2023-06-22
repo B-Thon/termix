@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"يجب عليك الإشتراك [في القناة]({link}) وبعد ذلك أعد المحاولة مرة أخرى!",
+                    f"يجب عليك الإشتراك في [سورس بيثون - 𝗕𝗧𝗵𝗼𝗻]({link}) وبعد ذلك أعد المحاولة مرة أخرى!",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup(
                         [[InlineKeyboardButton("سورس بيثون - 𝗕𝗧𝗵𝗼𝗻", url=link)]]
