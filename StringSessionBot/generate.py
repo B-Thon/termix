@@ -181,13 +181,13 @@ async def cancelled(msg):
         return True
     elif "/restart" in msg.text:
         await msg.reply(
-            "تم الانـته‍ـاء مـن تـࢪسـيـت الـبوت!",
+            "تم الانتهاء من ترسيت البوت!",
             quote=True,
             reply_markup=InlineKeyboardMarkup(Data.generate_button),
         )
         return True
     elif msg.text.startswith("/"):  # Bot Commands
-        await msg.reply("تم إلـغاء الـجلـسة!", quote=True)
+        await msg.reply("تم إلغاء الجلسة!", quote=True)
         return True
     else:
         return False 
