@@ -45,7 +45,7 @@ async def generate_session(bot, msg, telethon=False):
     )
     user_id = msg.chat.id
     api_id_msg = await bot.ask(
-        user_id, "الان ارسل ايبي ايدي المكون من 8 ارقام API_ID .", filters=filters.text
+        user_id, "الان ارسل ايبي ايدي المكون من 8 ارقام API_ID .\n`19662621`", filters=filters.text
     )
     if await cancelled(api_id_msg):
         return
@@ -59,7 +59,7 @@ async def generate_session(bot, msg, telethon=False):
         )
         return
     api_hash_msg = await bot.ask(
-        user_id, "الان ارسل ايبي هاش API_HASH .", filters=filters.text
+        user_id, "الان ارسل ايبي هاش API_HASH .\n`24c2270e7f1336eb59ca6c48e42ec6ca`", filters=filters.text
     )
     if await cancelled(api_id_msg):
         return
