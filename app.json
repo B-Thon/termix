@@ -3,6 +3,7 @@
   "description": "انشاء جلسة كود تيليثون او بايروجرام",
   "logo": "https://graph.org/file/d3e879563a15f9b821a83.jpg",
   "keywords": [
+    "telebot",
     "telegram",
     "bot",
     "python",
